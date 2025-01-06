@@ -1,25 +1,27 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #f4f4f4;
 }
 
 /* Header Section */
 header {
     background-color: #333;
     color: white;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
+    font-size: 3em;
     margin: 0;
 }
 
 header p {
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 /* Navigation Menu */
@@ -32,9 +34,10 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 12px 20px;
     margin: 0 15px;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 nav a:hover {
@@ -43,52 +46,70 @@ nav a:hover {
 
 /* Hero Section */
 .hero-section {
-    background: url('https://via.placeholder.com/1920x600') no-repeat center center;
+    background: url('assets/hero-bg.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     text-align: center;
-    padding: 100px 0;
+    padding: 120px 20px;
 }
 
 .hero-section h1 {
-    font-size: 3em;
+    font-size: 4em;
     margin-bottom: 20px;
 }
 
 .hero-section p {
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 /* Section Styles */
 .section {
     padding: 50px 20px;
     text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 .services {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 40px 0;
-    background-color: #fff;
+    justify-content: space-evenly;
+    padding: 40px 20px;
 }
 
 .service-item {
-    width: 30%;
-    text-align: center;
+    width: 22%;
     background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 10px 0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
 }
 
 .service-item h3 {
     color: #333;
+    margin-top: 20px;
 }
 
 .service-item p {
     color: #666;
+}
+
+.service-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+/* About Section Image */
+.about-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer Section */
@@ -106,4 +127,15 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* Social Media Icons */
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.social-icon:hover {
+    opacity: 0.7;
 }
