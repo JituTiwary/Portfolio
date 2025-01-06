@@ -1,3 +1,6 @@
+// You can add any JavaScript functionality here if needed
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("The Talking Star website is loaded!");
+});
 
-// JavaScript functionality can be added here
-console.log("Portfolio website loaded successfully!");
+// Add any interactive features like scroll effects, animations, or form validations here
