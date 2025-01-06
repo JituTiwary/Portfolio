@@ -1,9 +1,8 @@
-// You can add any JavaScript functionality here if needed
+// JavaScript for smooth scroll effect
 document.addEventListener("DOMContentLoaded", function() {
     console.log("The Talking Star website is loaded!");
 });
 
-// Example of scrolling animation: smooth scrolling when clicking navigation links
 const links = document.querySelectorAll("nav a");
 links.forEach(link => {
     link.addEventListener("click", function(e) {
