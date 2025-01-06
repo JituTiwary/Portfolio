@@ -22,7 +22,7 @@ header p {
     font-size: 1.2em;
 }
 
-/* Navigation */
+/* Navigation Menu */
 nav {
     background-color: #444;
     padding: 10px;
@@ -67,6 +67,7 @@ nav a:hover {
 
 .services {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 40px 0;
     background-color: #fff;
@@ -79,9 +80,10 @@ nav a:hover {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
 }
 
-.service-item h2 {
+.service-item h3 {
     color: #333;
 }
 
